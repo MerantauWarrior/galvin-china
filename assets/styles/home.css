@@ -119,7 +119,8 @@
     background: rgba(253, 212, 41, 0.5); }
 
 .top-background {
-  background-image: url("/assets/images/index/top-background.svg");
+  /*background-image: url("/assets/images/index/top-background.svg");*/
+  background-image: url("/assets/images/index/top-background.png");
   height: 75vh; }
   .top-background-image-xs {
     display: none !important; }

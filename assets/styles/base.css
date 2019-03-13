@@ -346,7 +346,8 @@ a {
   justify-content: center; }
 
 .top-background {
-  background-image: url("/assets/images/top-background-normal.png");
+  /*background-image: url("/assets/images/top-background-normal.png");*/
+  background-image: url("/assets/images/top-background-normal.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
