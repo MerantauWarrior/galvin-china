@@ -233,10 +233,14 @@ body {
   font-family: 'SourceHanSansCN', 'Raleway', 'PingFang SC', 'Fang Song', 'Dengxian', 'Microsoft JhengHei', 'Microsoft Yahei', Arial, Helvetica, sans-serif;
   font-weight: 300; }
 
+/*@media screen and (max-width: 576px) {*/
+  /*html, body {*/
+    /*max-width: 100%;*/
+    /*overflow: hidden; } }*/
 @media screen and (max-width: 576px) {
   html, body {
     max-width: 100%;
-    overflow: hidden; } }
+    overflow-x: hidden; } }
 
 .space-xs {
   height: 10px; }

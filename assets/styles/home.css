@@ -101,8 +101,11 @@
 @media screen and (max-width: 576px) {
   .service-block .container {
     padding: 0; }
+  /*.square-button {*/
+    /*padding: 25px; }*/
   .square-button {
-    padding: 25px; }
+    padding: 15px 5px;
+  }
     .square-button-grid {
       width: 100%; }
     .square-button-text {
