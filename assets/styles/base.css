@@ -345,6 +345,10 @@ a {
   flex-direction: column;
   justify-content: center; }
 
+.logo-new{
+    max-width: 150px;
+}
+
 .top-background {
   /*background-image: url("/assets/images/top-background-normal.png");*/
   background-image: url("/assets/images/top-background-normal.jpeg");
