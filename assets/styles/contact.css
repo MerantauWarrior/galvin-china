@@ -1,0 +1,161 @@
+.content-block {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  overflow: hidden; }
+  .content-block .line {
+    height: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("/assets/images/line-black.svg");
+    background-repeat: no-repeat;
+    background-position: center; }
+  .content-block .line-white {
+    background-image: url("/assets/images/line-white.svg"); }
+  .content-block .line-yellow {
+    background-image: url("/assets/images/line-yellow.svg"); }
+
+.content-text {
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-size: 18px;
+  word-spacing: 3px;
+  line-height: 35px; }
+
+@media screen and (max-width: 576px) {
+  .content-block {
+    background-color: #FED230; }
+    .content-block .container {
+      background-color: white;
+      width: 95%; } }
+
+.top-background, .top-placeholder {
+  height: 30vh; }
+
+.top-arrow {
+  position: absolute;
+  bottom: 27px;
+  left: 50%; }
+
+.block-end {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  z-index: 10; }
+  .block-end .title {
+    color: black; }
+  .block-end .container {
+    position: relative;
+    background-color: white; }
+  .block-end .email-form, .block-end .contact-info {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 50%; }
+    @media screen and (max-width: 992px) {
+      .block-end .email-form, .block-end .contact-info {
+        width: 100%; } }
+
+.customer-block {
+  padding-bottom: 178px; }
+
+.customer-image {
+  padding-top: 44px;
+  text-align: center; }
+
+.email-form {
+  text-align: left; }
+  .email-form input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    color: #3a3936;
+    font-weight: 300; }
+    .email-form input:focus {
+      color: #3a3936;
+      background: transparent;
+      border: none;
+      outline: none;
+      box-shadow: none; }
+    .email-form input:hover::placeholder {
+      opacity: 1; }
+    .email-form input::placeholder {
+      color: black;
+      opacity: 0.4; }
+  .email-form textarea {
+    border: 1px solid #a0a0a0;
+    background-color: transparent;
+    resize: none;
+    color: #3a3936;
+    font-weight: 300; }
+    .email-form textarea::placeholder {
+      color: black;
+      opacity: 0.4; }
+    .email-form textarea:focus {
+      color: #3a3936;
+      border: 1px solid #3a3936;
+      background-color: transparent;
+      box-shadow: none; }
+    .email-form textarea:hover {
+      border: 1px solid #3a3936; }
+      .email-form textarea:hover::placeholder {
+        opacity: 1; }
+  .email-form .text-input {
+    position: relative;
+    height: 44px; }
+    .email-form .text-input-background {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 80%;
+      bottom: 0;
+      border-bottom: 1px solid #a0a0a0;
+      border-left: 1px solid #a0a0a0;
+      border-right: 1px solid #a0a0a0;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px; }
+    .email-form .text-input .highlight {
+      border-bottom: 1px solid #3a3936;
+      border-left: 1px solid #3a3936;
+      border-right: 1px solid #3a3936;
+      transition: all 0.15s; }
+  .email-form .textarea-input {
+    padding-top: 44px; }
+  .email-form-submit {
+    color: #FDD942;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    padding: 10px 0 10px 0; }
+    .email-form-submit:hover {
+      text-decoration: underline;
+      cursor: pointer; }
+    .email-form-submit:focus {
+      outline: none;
+      box-shadow: none; }
+
+.say, .hi {
+  color: black; }
+
+.contact-info .title {
+  color: #3a3936;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 100; }
+
+.contact-info .email {
+  color: #FDD942;
+  font-weight: 400;
+  font-size: 14px; }
+
+.contact-info .qrcode {
+  width: 80px;
+  height: 80px;
+  background: #fafafa; }
+
+.bottom-bar {
+  top: 250px; }
+
+@media screen and (max-width: 576px) {
+  .content-block {
+    background-color: white; } }
