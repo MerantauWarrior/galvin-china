@@ -228,19 +228,19 @@
                 </g>
             </g>
             <text id="投放计划" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-size="18" font-weight="bold" line-spacing="20" fill="#FFFFFF">
-                <tspan x="83" y="33">投放计划</tspan>
+                <tspan x="83" y="33">Delivery plan</tspan>
             </text>
             <text id="测试" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-size="18" font-weight="bold" line-spacing="20" fill="#FFFFFF">
-                <tspan x="83" y="133">测试</tspan>
+                <tspan x="83" y="133">test</tspan>
             </text>
             <text id="拆分优化" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-size="18" font-weight="bold" line-spacing="20" fill="#FFFFFF">
-                <tspan x="83" y="327">拆分优化</tspan>
+                <tspan x="83" y="327">Volume</tspan>
             </text>
             <text id="放量" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-size="18" font-weight="bold" line-spacing="20" fill="#FFFFFF">
-                <tspan x="83" y="225">放量</tspan>
+                <tspan x="83" y="225">Split optimization</tspan>
             </text>
             <text id="再放量" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-size="18" font-weight="bold" line-spacing="20" fill="#FFFFFF">
-                <tspan x="83" y="426">再放量</tspan>
+                <tspan x="83" y="426">Re-quantity</tspan>
             </text>
         </g>
     </g>
